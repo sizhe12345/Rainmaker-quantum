@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&family=STIX+Two+Text:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto',Arial,Helvetica,sans-serif; 
+}
+
+.wrapper{
+    width:100%;
+    margin:auto;
+}
+
+.header{
+    margin: 0 auto;
+    height:auto;
+    background: #00080d;
+}
+
+.header img{
+    height:64px;
+    width:71px;
+}
+
+.header-title img{
+    height:56px;
+    width:56px;
+}
+
+.register-btn{
+    background: linear-gradient(94deg,#008083 .82%,#00f1f3 37.76%,#25c6c6 94.58%);
+}
+
+.register-btn:hover{
+    background: linear-gradient(94deg,#008083 .82%,#00f1f3 37.76%,#25c6c6 94.58%);
+}
+
+.register-container a{
+    padding:12px 18px;
+}
+
+@media screen and (max-width:600px) {
+    .header .container{
+        width:100%;
+    }
+
+    .header-title{
+        display:none;
+    }
+}

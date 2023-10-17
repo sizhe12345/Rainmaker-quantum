@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Open+Sans&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&family=STIX+Two+Text:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.how_to{
+    width:100%;
+    height:100vh;
+    background-image: url(../Image/pamm_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout_howto{
+    margin:0 auto;
+    max-width: 1270px; 
+}
+
+.button-container a{
+    color: #323232;
+    text-decoration: none;
+    background: linear-gradient(87deg,#cd9564 1.86%,#ffcb9a 94.58%);
+    border:none;
+}
+
+.col-md-3 a{
+    color: #323232;
+    text-decoration: none;
+    background: linear-gradient(94deg,#008083 .82%,#00f1f3 37.76%,#25c6c6 94.58%);
+    font-weight: bold;
+    background-size: 200% auto;
+}
+
+@media screen and (max-width:767px){
+    .how_to{
+        height:auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    a {
+        font-size: 12px; /* Further reduce font size for very small screens */
+        padding: 6px 12px; /* Adjust padding for very small screens */
+    }
+}
+
+/* Media query for screens smaller than 576px (adjust as needed) */
+@media (max-width: 576px) {
+    a {
+        font-size: 12px; /* Further reduce font size for very small screens */
+        padding: 6px 12px; /* Adjust padding for very small screens */
+    }
+}

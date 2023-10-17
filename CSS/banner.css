@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&family=STIX+Two+Text:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Open+Sans&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Roboto:wght@700&display=swap');
+
+
+.banner{
+    width:100%;
+    height:auto;
+    background-image: url(../Image/steps-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout_banner{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.heading_banner h1{
+    font-family: 'STIX Two Text', serif;
+    background-image: linear-gradient(-225deg,#b87b45,#c6956a 29%,#dfa976 67%,#e9d7c7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: textShine 2s linear infinite;
+    font-size: 40px;
+}
+
+.content_banner p{
+    font-size:17px;
+    font-weight: 100;
+}
+
+.invest-btn a{
+    padding:17px 30px;
+    background: linear-gradient(94deg,#008083 .82%,#00f1f3 37.76%,#25c6c6 94.58%);
+    color: #323232;
+    font-weight: bold;
+}
+
+.layout_banner1{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.trading{
+    background-image: url(../Image/trading-new-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+.trading_header{
+    font-family: 'STIX Two Text', serif;
+    background-image: linear-gradient(-225deg,#b87b45,#c6956a 29%,#dfa976 67%,#e9d7c7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: textShine 2s linear infinite;
+    font-size: 40px;
+}
+
+.trading-ele{
+    opacity:0;
+}
+
+.banner_content{
+    font-size: 24px;
+}
+
+@media screen and (max-width:767px){
+    .heading_banner{
+        padding-top: 25px;
+    }
+
+    .heading_banner h1{
+        text-align: center;
+    }
+
+    .content_banner p{
+        text-align: center;
+    }
+
+    .invest-btn{
+        display:flex;
+        justify-content: center;
+    }
+
+    .trading-ele{
+        display:none;
+    }
+
+    .banner_content{
+        text-align: center;
+        font-size: 1rem!important;
+    }
+
+    .trading_header{
+        text-align: center;
+    }
+
+    .benefit-container{
+        display: block!important;;
+    }
+}
+
+.for_investors{
+    background-image: url(../Image/invest-2-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout_acc{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.how-btn:hover{
+    background-color: #E9FBFB;
+}
+
+.layout_fi{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.layout_app{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.steps{
+    background-color: #030915;
+}
+
+
+.layout_steps{
+    margin:0 auto;
+    max-width: 1270px; 
+}
+/*stats*/
+.stats{
+    background-image: url(../Image/trading-element-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.layout_stats{
+    margin:0 auto;
+    max-width: 1270px; 
+}
+
+.video{
+    background-image: url(../Image/robot-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.steps_ib{
+    
+    background-image: url(../Image/video-2-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout_ib{
+    margin:0 auto;
+}
+
+.robot-2{
+    position:relative;
+    bottom:70px;
+}
+
+.content-container{
+    width:270px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.view-more{
+    text-decoration: none;
+    color:white;
+    animation: blink 1s linear infinite;
+}
+
+.view-more:hover{
+    color:#00FFF7;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.invest-btn-1{
+    padding:20px 40px;
+    background: linear-gradient(94deg,#008083 .82%,#00f1f3 37.76%,#25c6c6 94.58%);
+    color: #323232;
+    font-weight: bold;
+}
+
+.layout_ie{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.animate-text2{
+    background: linear-gradient(86.87deg,#149799 1.86%,#25c6c6 94.58%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: textShine 2s linear infinite;
+    font-weight: bold;
+}
+
+.animate-text{
+    background-image: linear-gradient(-225deg,#b87b45,#c6956a 29%,#dfa976 67%,#e9d7c7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: textShine 2s linear infinite;
+}
+
+.layout_how-ib{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.disclaimer{
+    background: #00080d;
+}
+
+.logo-img{
+    width:125px;
+    height:112px;
+}
+
+@keyframes textShine {
+    100% {
+        background-position: 200%;
+    }
+}
+
+@keyframes blink {
+    50%{
+        opacity: 0.3;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .robot-container{
+        flex-direction: column;
+    }
+
+    .robot-2{
+        bottom:0;
+    } 
+
+    .content-container{
+        width:100%;
+    }
+}
+
+.app{
+    background-image: url(../Image/testing-bg-n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout_app{
+    margin:0 auto;
+    max-width: 1270px;
+}
+
+.app_title{
+    background-image: linear-gradient(-225deg,#b87b45,#c6956a 29%,#dfa976 67%,#e9d7c7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: textShine 2s linear infinite;
+    font-size: 36px;
+}
+
+.app_benefits p{
+    font-weight: bold;
+}
+
+.app_benefits img{
+    width:50px;
+}
+
+.how-ib{
+    background: #0c0c16;
+}
+
+.content{
+    color:#c9c9c9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.for_inv{
+    z-index: -1;
+    border-radius: 8px;
+    border: 2px solid cyan;
+    background: linear-gradient(157deg,hsla(0,0%,97.6%,.15) 3.22%,hsla(0,0%,97.6%,0) 42.07%),rgba(28,37,50,.9);
+}
+
+
+@media screen and (max-width:568px){
+    .heading_banner{
+        text-align: center;
+    }
+
+    .for_inv{
+        margin-bottom: 20px;
+    }
+
+    .spec_content{
+        margin-top: 0px!important;
+    }
+}
+
+/*Product*/
+
+.carousel-item{
+    height:650px;
+}
+
+.robot-img{
+    width:220px;
+}
+
+
+.image{
+    border-radius: 16px;
+    border:4px solid #dfa976;
+    width:500px;
+}
+
+.stats-item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1200px){
+    .robot-img{
+        width:180px;
+    }
+
+    .image{
+        width:400px;
+    }
+
+    .carousel-inner{
+        max-width: 100%;
+    }
+
+    .content-container{
+        width:240px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .product-cont{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-item{
+        height:1000px;
+    }
+
+    .content-wrapper{
+        margin-left: 0!important;
+    }
+}
+
+@media screen and (max-width:697px){
+
+    .carousel-item{
+        height:1150px;
+    }
+
+    .img-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image{
+        width:250px;
+    }
+}
+
+@media screen and (max-width:416px){
+    .image{
+        border-radius: 16px;
+        border:3.5px solid #dfa976;
+        width:200px;
+    }
+}
